@@ -22,7 +22,27 @@ I have completed two verisons both work
 ##  2. Simple Sentiment Anaylysis
 ![](senti.png)
 
-The Simple Sentiment Anaylysis takes the background text from the dataframe which is the content about a character's background.  It first removes stop word and tokens words 
+The Simple Sentiment Anaylysis takes the background text from the dataframe which is the content about a character's background.  It first removes stop word and tokens words.
+
+It uses nltk vader SentimentIntensityAnalyzer to get a polarity score of the character background score.
+
+```
+example = "You learned early on that people are gullible and easy to exploit. You decided to turn your natural lucky streak into the basis of a career, though you still realize that improving your skills is essential.You made a friend of an adventurer. Thomony Keldingfie, Neutral Human Bard that works as a Priest. Your relationship was indifferent. He is alive and well. You made a friend of an adventurer. Chad Browbridge, Neutral Evil Human Paladin that works as an Artisan. Your relationship was friendly. He is alive and well. You started dating. Gerald Blythe, Neutral Human Bard that works as an Explorer/Wanderer. Your relationship was friendly. He is alive, but doing poorly due to injury / finances / relationship."
+```
+
+```
+sid.polarity_scores(a)
+```
+would output a score of
+```
+{'neg': 0.082, 'neu': 0.706, 'pos': 0.212, 'compound': 0.8705}
+```
+
+I then take the score if it is positive it gets a pos label if it is negative it gets a neg label.
+
+```
+df['comp_score'] = df['compound'].apply(lambda score: 'pos' if score>=0 else 'neg')
+```
 
 ##  3. Simple Topic Modeling
 ![](topic.png)
