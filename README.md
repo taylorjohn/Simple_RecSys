@@ -9,20 +9,65 @@
 
 ###### Now to Combine the 3 all together
 
+# Hybrid Recommender System
+
+  - Recommender System
+  - Sentiment Anaylysis
+  - Topic Modeling
+
 What started out as a simple category based recommender system has since grown into a hybrid system which I believe could possibly bring more life into the results. Which alread make sense from a categorical sense but I belive can be improved using both topic modeling and sentiment analysis.
+
+###### Note: Cold Start means this system will not collect data from users and will only use data from the character features unlike regular recommender systems that may use voting or user interaction information to influence the results.
 
 
 
 ##  1. Simple Category Based Cold Start Recommender System
 ![](header.png)
 
-I have completed two verisons both work
+The Simple Recommender System takes the categorial feaeature from the dataframe which has the character's features.
 
+
+# character's features
+
+  - character's name (must be unique)
+  
+  - herotype (can only have one of following choices)
+  
+      - Bard
+      - Sorcerer
+      - Paladin
+      - Rogue
+      - Druid
+      - Sorcerer
+      
+  - weapons (can have one or multiple of following choices)
+  
+        - Dagger
+        - sling
+        - club
+        - light crossbow
+        - battleaxe
+        - Greataxe
+        
+  - spells (can have one or multiplee of following choices)
+  
+          - Transmutation
+          - Enchantment 
+          - Necromancy 
+          - Abjuration
+          - Conjuration
+          - Evocation
+          
+  - background story (should be unique)
+  
+  
+  
+ I used get dummies to convert possable combonations of weapons and spells into zeros and ones 
 
 ##  2. Simple Sentiment Anaylysis
 ![](senti.png)
 
-The Simple Sentiment Anaylysis takes the background text from the dataframe which is the content about a character's background.  It first removes stop word and tokens words.
+The Simple Sentiment Anaylysis takes the background text from the dataframe which is the content about a character's background story.  It first removes stop word and tokens words.
 
 It uses nltk vader SentimentIntensityAnalyzer to get a polarity score of the character background score.
 
