@@ -9,18 +9,21 @@
 
 What started out as a simple category based recommender system has since grown into a hybrid system which I believe could possibly bring more life into the results. Which alread make sense from a categorical sense but I belive can be improved using both topic modeling and sentiment analysis.
 
-![](header.png)
+
 
 ##  1. Simple Category Based Cold Start Recommender System
+![](header.png)
 
 I have completed two verisons both work
 
+
 ##  2. Simple Sentiment Anaylysis
+![](senti.png)
 
 I have also completed this
 
 ##  3. Simple Topic Modeling
-
+![](topic.png)
 
 I have also completed this
 
