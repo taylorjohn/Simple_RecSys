@@ -5,6 +5,8 @@
 
 
 # Simple Hybrid Cold Start Recommender System
+![](hybrid.png)
+
 ###### Now to Combine the 3 all together
 
 What started out as a simple category based recommender system has since grown into a hybrid system which I believe could possibly bring more life into the results. Which alread make sense from a categorical sense but I belive can be improved using both topic modeling and sentiment analysis.
