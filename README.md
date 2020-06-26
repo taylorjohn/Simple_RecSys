@@ -31,7 +31,7 @@ I have also completed this
 
 
 ##  4. Simple Dummy Data For Above
-
+![](data.png)
 
 I have also completed this.
 
