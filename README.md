@@ -116,32 +116,78 @@ I have also completed this.
 The File is a excell file that include all the data needed to do a simple test to make sure everything works as needed.
 > Short blurb about what your product does.
 
+The Simple Recommender System takes the categorial feaeature from the dataframe which has the character's features.
+
+
+# This excel file contains all the character's features
+
+  - character's name (must be unique)
+  
+  - herotype (can only have one of following choices)
+  
+      - Bard
+      - Sorcerer
+      - Paladin
+      - Rogue
+      - Druid
+      - Sorcerer
+      
+  - weapons (can have one or multiple of following choices)
+  
+        - Dagger
+        - sling
+        - club
+        - light crossbow
+        - battleaxe
+        - Greataxe
+        
+  - spells (can have one or multiplee of following choices)
+  
+          - Transmutation
+          - Enchantment 
+          - Necromancy 
+          - Abjuration
+          - Conjuration
+          - Evocation
+          
+  - background story (should be unique)
+  
+
 
 
 
 ## Installation
 
-OS X & Linux:
+open your terminal and navigate to the directory where you would like to save your notebook. Then type the command jupyter notebook and the program will instantiate a local server at localhost:8888 (or another specified port). 
 
-```sh
-npm install my-crazy-module --save
+
+##  launch a Jupyter notebook
+
+```
+jupyter notebook
 ```
 
-Windows:
 
-```sh
-edit autoexec.bat
+##  Open Notebook
+
+
+If you already have a Jupyter Notebook in your current directory that you want to view, find it in your files list and click it to open. 
+
 ```
+dnd-rec.ipynb
+```
+
+
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+TBA - A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+TBA - Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
 make install
