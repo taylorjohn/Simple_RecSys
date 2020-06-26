@@ -58,6 +58,10 @@ The Top 15 words Per topic # 0
 
 After I got all the topics I created a dictionary to label the tpoics based on my best guess as to what the topic was. Then I display them grouped by Topic label the by name to display them semi orginaized.
 
+The results came out nice and varied with a good balance of topics.
+
+![](topic-labels.png)
+
 
 ##  4. Simple Dummy Data For Above
 ![](data.png)
