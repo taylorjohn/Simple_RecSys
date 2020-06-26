@@ -22,12 +22,21 @@ I have completed two verisons both work
 ##  2. Simple Sentiment Anaylysis
 ![](senti.png)
 
-I have also completed this
+The Simple Sentiment Anaylysis takes the background text from the dataframe which is the content about a character's background.  It first removes stop word and tokens words 
 
 ##  3. Simple Topic Modeling
 ![](topic.png)
 
-I have also completed this
+The Simple Topic Modeling takes the background text from the dataframe which is the content about a character's background.  It first removes stop word and tokens words and finds 15 words to make a cluster to become a topic.
+
+Below is a example of 15 words in topic #0
+
+```
+The Top 15 words Per topic # 0
+['friendly', 'alive', 'relationship', 'works', 'human', 'friend', 'adventurer', 'neutral', 'instantly', 'musical', 'discovered', 'day', 'picked', 'play', 'instrument']
+```
+
+After I got all the topics I created a dictionary to label the tpoics based on my best guess as to what the topic was. Then I display them grouped by Topic label the by name to display them semi orginaized.
 
 
 ##  4. Simple Dummy Data For Above
