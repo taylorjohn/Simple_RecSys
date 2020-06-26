@@ -1,8 +1,30 @@
 # Simple_RecSys
 
 
-# Simple Category Based Cold Start Recommender
 
+# Simple Hybrid Cold Start Recommender System
+###### Now to Combine the 3 all together
+
+
+##  1. Simple Category Based Cold Start Recommender System
+
+I have completed two verisons both work
+
+##  2. Simple Sentiment Anaylysis
+
+I have also completed this
+##  3. Simple Topic Modeling
+
+
+I have also completed this
+
+
+##  4. Simple Dummy Data For Above
+
+
+I have also completed this.
+
+The File is a excell file that include all the data needed to do a simple test to make sure everything works as needed.
 
 I am trying to find the 3 most similar to a name by sorting combinations of a 2 set of dummies(get_dummies) plus a column. Or find the name of the top 3 matchings (most in common) of the combinations of column data - herotype, weapons, and spells.
 
