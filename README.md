@@ -19,12 +19,21 @@ What started out as a simple category based recommender system has since grown i
 
 ###### Note: Cold Start means this system will not collect data from users and will only use data from the character features unlike regular recommender systems that may use voting or user interaction information to influence the results.
 
+# First we get the outcomes of each indivual systems
+
+![](hybrid-recommender-system2.gif)
+
+# Now to Combine the outcomes of each indivual system and sort and recommend the new hybrid results
+
+![](hybrid-recommender-system.gif)
+
+
 
 
 ##  1. Simple Category Based Cold Start Recommender System
 ![](header.png)
 
-The Simple Recommender System takes the categorial feaeature from the dataframe which has the character's features.
+The Simple Recommender System takes the categorial features from the dataframe which has the character's features.
 
 
 # character's features
