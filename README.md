@@ -12,7 +12,7 @@
 # Hybrid Recommender System
 
   - Recommender System
-  - Sentiment Anaylysis
+  - Sentiment Analysis
   - Topic Modeling
 
 What started out as a simple category based recommender system has since grown into a hybrid system which I believe could possibly bring more life into the results. Which alread make sense from a categorical sense but I belive can be improved using both topic modeling and sentiment analysis.
