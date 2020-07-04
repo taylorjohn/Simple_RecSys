@@ -162,8 +162,10 @@ The Simple Recommender System takes the categorial feaeature from the dataframe 
   - background story (should be unique)
   
 
+##  5. First Hybrid Combining the Topic Analysis with Content Based Recommenderworking 
 
-
+Now as of the 4th of July !!! This takes the results of the topic analysis and adds into into the recommender to create a slightly more interesting result.
+![](hybridv1.PNG)
 
 ## Installation
 
