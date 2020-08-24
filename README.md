@@ -1,6 +1,10 @@
 # Simple_RecSys
 
 
+# NEW 8/2020 Cold Start Recommender System
+
+This is different cold start system using sklearn pairwise cosinesimilarity for feature extraction using Count Vectorize.
+
 
 
 
